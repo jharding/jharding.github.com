@@ -19,8 +19,10 @@
           <h1><a href='/'>{ {{ site.title }} }</a></h1>
         </header>
         <div class='row'>
-          <div class='page-content span8'> 
-            {{ content }}
+          <div class='page-content span8'>
+            <div class='wrapper'>
+              {{ content }}
+            </div>
           </div>
           <section class='sidebar span3 offset1'>
             {% include site_links.html %}
