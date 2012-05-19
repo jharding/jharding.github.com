@@ -23,13 +23,7 @@
             {{ content }}
           </div>
           <section class='sidebar span3 offset1'>
-            <div class='site-links'>
-              <a class='home-link' href='/'>Home</a>
-              <a class='about-link' href='/about.html'>About</a>
-              <a class='projects-link' href='/projects.html'>Projects</a>
-              <a class='archive-link' href='/archive.html'>Archive</a>
-              <a class='contact-link' href='/contact.html'>Contact</a>
-            </div>
+            {% include site_links.html %}
           </section>
       </div>
       <div class='sticky-footer-push'></div>
