@@ -8,6 +8,8 @@ author:
   twitter: 'JakeHarding'
   github: 'jharding'
 
+production_url: 'http://thejakeharding.com'
+
 JS_PATH: '/public/js'
 CSS_PATH: '/public/style'
 IMG_PATH: '/public/img'
