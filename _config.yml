@@ -1,7 +1,7 @@
 exclude: ['grunt.js']
 auto: true
 
-title: 'I am Jake Harding'
+title: 'Jake Harding'
 author:
   name: 'Jake Harding'
   email: 'jacob.s.harding@gmail.com'
