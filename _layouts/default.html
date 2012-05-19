@@ -10,6 +10,7 @@
     <link rel='stylesheet' href='/public/style/jharding.css'>
   </head>
   <body>
+    <div class='top-bar {{ page.type }}'></div>
     <div class='sticky-footer-wrapper'>
       <div class='container container-main'>
         <header>
@@ -19,15 +20,14 @@
           <div class='page-content span8'> 
             {{ content }}
           </div>
-          <section class='bio span4'>
-            <img class='headshot' src='{{ site.IMG_PATH }}/headshot.png' />
-            <p class='summary'>My name is Jake Harding and I enjoy coding.</p>
-            <ul class='site-links unstyled'>
-              <li><a href='/posts.html'>Posts</a></li>
-              <li><a href='/projects.html'>Projects</a></li>
-              <li><a href='/about.html'>About</a></li>
-              <li><a href='/contact.html'>Contact</a></li>
-            </ul>
+          <section class='sidebar span3 offset1'>
+            <div class='site-links'>
+              <a class='home-link' href='/'>Home</a>
+              <a class='about-link' href='/about.html'>About</a>
+              <a class='projects-link' href='/projects.html'>Projects</a>
+              <a class='archive-link' href='/archive.html'>Archive</a>
+              <a class='contact-link' href='/contact.html'>Contact</a>
+            </div>
           </section>
       </div>
       <div class='sticky-footer-push'></div>

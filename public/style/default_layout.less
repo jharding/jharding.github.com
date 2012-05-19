@@ -1,22 +1,68 @@
-body {
-  border-top: 5px solid @black;
-}
-
 .container-main {
   header {
     margin: 0 0 40px 0;
     padding: 20px 0;
   }
-  .bio {
-    text-align: center;
-    .headshot {
-      height: 200px;
-      width: 200px;
-      .border-radius(6px);
+  .sidebar {
+    .site-links {
+      a {
+        display: block;
+        position: relative;
+        padding: 8px 10px;
+        outline: none;
+        text-decoration: none;
+        color: @white;
+        #font > .shorthand(20px, bold);
+        .transition(all .2s linear);
+        &:hover, &:focus {
+          left: -10px;
+        }
+        &.home-link {
+          background: @homeColor;
+        }
+        &.about-link {
+          background: @aboutColor;
+        }
+        &.projects-link {
+          background: @projectsColor;
+        }
+        &.archive-link {
+          background: @archiveColor;
+        }
+        &.contact-link {
+          background: @contactColor;
+        }
+      }
     }
   }
-  .page-content {
-    min-height: 10px;
+}
+
+// styling for the sticky colored bar at the top of the page
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background: @black;
+  z-index: 1000;
+  &.home {
+    background: @homeColor;
+  }
+  &.post {
+    background: @postColor;
+  }
+  &.about {
+    background: @aboutColor;
+  }
+  &.projects {
+    background: @projectsColor;
+  }
+  &.archive {
+    background: @archiveColor;
+  }
+  &.contact {
+    background: @contactColor;
   }
 }
 
