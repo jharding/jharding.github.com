@@ -92,6 +92,12 @@ body {
     header h1 a {
       color: @homeColor;
     }
+    a {
+      color: @homeColor;
+      &:hover {
+        color: darken(@homeColor, 20%);
+      }
+    }
   }
   &.about {
     .top-bar {
@@ -99,6 +105,12 @@ body {
     }
     header h1 a {
       color: @aboutColor;
+    }
+    a {
+      color: @aboutColor;
+      &:hover {
+        color: darken(@aboutColor, 20%);
+      }
     }
   }
   &.projects {
@@ -108,6 +120,12 @@ body {
     header h1 a {
       color: @projectsColor;
     }
+    a {
+      color: @projectsColor;
+      &:hover {
+        color: darken(@projectsColor, 20%);
+      }
+    }
   }
   &.archive {
     .top-bar {
@@ -115,6 +133,12 @@ body {
     }
     header h1 a {
       color: @archiveColor;
+    }
+    a {
+      color: @archiveColor;
+      &:hover {
+        color: darken(@archiveColor, 20%);
+      }
     }
   }
   &.contact {
@@ -124,6 +148,12 @@ body {
     header h1 a {
       color: @contactColor;
     }
+    a {
+      color: @contactColor;
+      &:hover {
+        color: darken(@contactColor, 20%);
+      }
+    }
   }
   &.post {
     .top-bar {
@@ -131,6 +161,12 @@ body {
     }
     header h1 a {
       color: @postColor;
+    }
+    a {
+      color: @postColor;
+      &:hover {
+        color: darken(@postColor, 20%);
+      }
     }
   }
 }
