@@ -1,4 +1,4 @@
-exclude: ['grunt.js']
+exclude: ['grunt.js', 'node_modules']
 auto: true
 
 title: 'Jake Harding'
