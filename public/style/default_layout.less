@@ -12,6 +12,9 @@
     }
     h1 {
       line-height: 50px;
+      a {
+        text-decoration: none;
+      }
     }
   }
   .sidebar {
@@ -30,18 +33,33 @@
         }
         &.home-link {
           background: @homeColor;
+          &.visiting {
+            border-left: 5px solid darken(@homeColor, 20%); 
+          }
         }
         &.about-link {
           background: @aboutColor;
+          &.visiting {
+            border-left: 5px solid darken(@aboutColor, 20%); 
+          }
         }
         &.projects-link {
           background: @projectsColor;
+          &.visiting {
+            border-left: 5px solid darken(@projectsColor, 20%); 
+          }
         }
         &.archive-link {
           background: @archiveColor;
+          &.visiting {
+            border-left: 5px solid darken(@archiveColor, 20%); 
+          }
         }
         &.contact-link {
           background: @contactColor;
+          &.visiting {
+            border-left: 5px solid darken(@contactColor, 20%); 
+          }
         }
       }
     }
@@ -57,23 +75,57 @@
   width: 100%;
   background: @black;
   z-index: 1000;
+}
+
+// styling for page specific color
+body {
   &.home {
-    background: @homeColor;
-  }
-  &.post {
-    background: @postColor;
+    .top-bar {
+      background: @homeColor;
+    }
+    header h1 a {
+      color: @homeColor;
+    }
   }
   &.about {
-    background: @aboutColor;
+    .top-bar {
+      background: @aboutColor;
+    }
+    header h1 a {
+      color: @aboutColor;
+    }
   }
   &.projects {
-    background: @projectsColor;
+    .top-bar {
+      background: @projectsColor;
+    }
+    header h1 a {
+      color: @projectsColor;
+    }
   }
   &.archive {
-    background: @archiveColor;
+    .top-bar {
+      background: @archiveColor;
+    }
+    header h1 a {
+      color: @archiveColor;
+    }
   }
   &.contact {
-    background: @contactColor;
+    .top-bar {
+      background: @contactColor;
+    }
+    header h1 a {
+      color: @contactColor;
+    }
+  }
+  &.post {
+    .top-bar {
+      background: @postColor;
+    }
+    header h1 a {
+      color: @postColor;
+    }
   }
 }
 
