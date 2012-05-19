@@ -10,6 +10,6 @@ Feel free to contact me through whatever medium you're comfortable with. I'll do
 
 Email: [{{ site.author.email }}](mailto:{{ site.author.email }})
 
-Twitter: [{{ site.author.twitter }}](https://twitter.com/#!/{{ site.author.twitter }})
+Twitter: [@{{ site.author.twitter }}](https://twitter.com/#!/{{ site.author.twitter }})
 
 GitHub: [{{ site.author.github }}](https://github.com/{{ site.author.github }})
