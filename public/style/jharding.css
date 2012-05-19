@@ -4409,11 +4409,11 @@ body.about .action-shot {
   height: 450px;
   width: 300px;
   margin: 30px auto 0 auto;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -webkit-transition: all 2s linear;
+  -moz-transition: all 2s linear;
+  -ms-transition: all 2s linear;
+  -o-transition: all 2s linear;
+  transition: all 2s linear;
 }
 body.about .action-shot:hover {
   -webkit-transform: rotate(360deg);
