@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class='full-page-post'>
+  {% assign post_title = page.title %}
+  {% assign post_date = page.date %}
+  {% assign post_url = page.url %}
+  {% include post_header.html %}  
+
+  <div class='post-content'>
+    {{ content }}
+  </div>
+</article>

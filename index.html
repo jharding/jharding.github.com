@@ -1,0 +1,19 @@
+---
+layout: default
+title: Jake Harding
+---
+
+<ul class='most-recent-posts unstyled'>
+  {% for post in site.posts %}
+  <li>
+    {% assign post_title = post.title %}
+    {% assign post_date = post.date %}
+    {% assign post_url = post.url %}
+    {% include post_header.html %}
+
+    {% if post.description %}
+      <p class='post-description'>{{ post.description }}</p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

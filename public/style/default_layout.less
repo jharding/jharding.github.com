@@ -1,0 +1,51 @@
+body {
+  border-top: 5px solid @black;
+}
+
+.container-main {
+  header {
+    margin: 0 0 40px 0;
+    padding: 20px 0;
+  }
+  .bio {
+    text-align: center;
+    .headshot {
+      height: 200px;
+      width: 200px;
+      .border-radius(6px);
+    }
+  }
+  .page-content {
+    min-height: 10px;
+  }
+}
+
+// force vertical scroll bar
+html {
+  overflow-y: scroll;
+}
+
+// sticky footer
+html, body {
+  height: 100%;
+}
+
+body {
+  @footerHeight: 120px;
+
+  .sticky-footer-wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -@footerHeight;
+    .sticky-footer-push {
+      height: @footerHeight;
+    }
+  }
+
+  footer {
+    height: @footerHeight;
+    #grid .core .span(@gridColumns);
+    margin: 0 auto;
+  }
+}
