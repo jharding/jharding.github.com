@@ -170,6 +170,20 @@ body {
       }
     }
   }
+  &.four-oh-four {
+    .top-bar {
+      background: @fourOhFourColor;
+    }
+    header h1 a {
+      color: @fourOhFourColor;
+    }
+    a {
+      color: @fourOhFourColor;
+      &:hover {
+        color: darken(@fourOhFourColor, 20%);
+      }
+    }
+  }
 }
 
 // force vertical scroll bar
