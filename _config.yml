@@ -10,6 +10,9 @@ author:
 
 production_url: 'http://thejakeharding.com'
 
+disqus:
+  shortname: 'jakeharding'
+
 JS_PATH: '/public/js'
 CSS_PATH: '/public/style'
 IMG_PATH: '/public/img'
