@@ -4201,7 +4201,7 @@ a.badge:hover {
   text-decoration: none;
 }
 .container-main .page-content {
-  margin: 0 0 50px 0;
+  margin-bottom: 50px;
   background: #f6f6ef;
 }
 .container-main .page-content .wrapper {
