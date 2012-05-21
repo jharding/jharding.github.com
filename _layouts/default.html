@@ -3,8 +3,8 @@
   <head>
     <meta charset='utf-8'>
 
-    <meta name='description' content='Personal site of Jake Harding' />
-    <meta name='keywords' content='Jake Harding, Software, JavaScript' />
+    <meta name='description' content='{{ page.description | replace:"'", '&#39;' }}' />
+    <meta name='keywords' content='{{ page.keywords }}' />
     <meta name='author' content='Jake Harding' />
 
     <title>{{ page.title }} | Jake Harding</title>

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: The Beginning
-description: Christening my new site with the first post. This probably isn't worth your time to read, I'd suggest waiting until the next one. 
+title: 'The Beginning'
+description: "Christening my new site with the first post. This probably isn't worth your time to read, I'd suggest waiting until the next one."
+keywords: 'thejakeharding.com, Jekyll, Bootstrap, RYB'
 ---
 
 It's been a while since I've had a personal site or a blog. I built one about 4 years ago when I still did most of my development on a LAMP stack, but I forgot to renew my domain (jakeharding.com is due to expire in August, I shall reclaim it!) and after that I decided it just wasn't worth it to maintain a personal site. The times have changed though and with my new interests, having somewhere to write about my projects and share my experiences is a must.

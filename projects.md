@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Projects
 type: projects
+title: 'Projects'
+description: 'Projects by Jake Harding.'
+keywords: 'Projects, Jake Harding'
 ---
 
 ## Projects

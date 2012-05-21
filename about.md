@@ -1,7 +1,9 @@
 ---
 layout: default
-title: About 
 type: about
+title: 'About'
+description: 'Bio of Jake Harding.'
+keywords: 'Jake Harding, About'
 ---
 
 ## About Me 

@@ -2,6 +2,7 @@
 layout: post
 title: 'Philanthropist: How it Works'
 description: 'A detailed look at how my Chrome extension, Philanthropist, works.'
+keywords: 'Philanthropist, Amazon Associates'
 ---
 
 ### Background

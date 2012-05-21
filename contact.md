@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Contact 
 type: contact 
+title: 'Contact'
+description: 'Contact Jake Harding.'
+keywords: 'Contact, Jake Harding'
 ---
 
 ## Contact Me
