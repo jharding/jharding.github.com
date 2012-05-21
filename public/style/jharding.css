@@ -4398,7 +4398,10 @@ body footer {
 .full-page-post .post-header {
   margin: 0 0 20px 0;
 }
-.most-recent-posts .post-description {
+.most-recent-posts li {
+  margin-bottom: 30px;
+}
+.most-recent-posts li .post-description {
   margin: 0 0 0 30px;
 }
 body.about .action-shot {
