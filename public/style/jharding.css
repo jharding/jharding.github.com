@@ -384,7 +384,7 @@ h1 small {
 }
 h2 {
   font-size: 24px;
-  line-height: 33px;
+  line-height: 44px;
 }
 h2 small {
   font-size: 18px;
@@ -4400,6 +4400,9 @@ body footer {
 }
 .most-recent-posts li {
   margin-bottom: 30px;
+}
+.most-recent-posts li h2 {
+  line-height: 33px;
 }
 .most-recent-posts li .post-description {
   margin: 0 0 0 30px;
