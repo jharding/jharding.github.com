@@ -384,7 +384,7 @@ h1 small {
 }
 h2 {
   font-size: 24px;
-  line-height: 44px;
+  line-height: 33px;
 }
 h2 small {
   font-size: 18px;
@@ -4394,15 +4394,32 @@ body footer {
 .post-header .post-date {
   float: right;
   margin-left: 30px;
+  font-weight: normal;
+  color: #999999;
+}
+.post-content figure {
+  margin: 40px 0;
+  text-align: center;
+}
+.post-content figure img {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  -webkit-box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.post-content figure figcaption {
+  margin-top: 5px;
+  font-style: italic;
 }
 .full-page-post .post-header {
   margin: 0 0 20px 0;
 }
 .most-recent-posts li {
   margin-bottom: 30px;
-}
-.most-recent-posts li h2 {
-  line-height: 33px;
 }
 .most-recent-posts li .post-description {
   margin: 0 0 0 30px;
