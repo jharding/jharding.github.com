@@ -4421,9 +4421,6 @@ body footer {
 .most-recent-posts li {
   margin-bottom: 30px;
 }
-.most-recent-posts li .post-description {
-  margin: 0 0 0 30px;
-}
 body.about .action-shot {
   display: block;
   height: 450px;
