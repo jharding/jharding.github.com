@@ -4397,6 +4397,9 @@ body footer {
   font-weight: normal;
   color: #999999;
 }
+.post-content blockquote {
+  border-color: #dadabe;
+}
 .post-content figure {
   margin: 40px 0;
   text-align: center;
