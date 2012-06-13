@@ -11,5 +11,8 @@ type: post
   <div class='post-content'>
     {{ content }}
   </div>
-</article>
-{% include disqus.html %}
+  </article>
+  
+{% if page.category == 'tutorial' %}
+  {% include disqus.html %}
+{% endif %}

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: tutorial
 title: 'How to Center Bar Buttons in a Toolbar'
 description: 'An iPhone development tutorial displaying how to center bar buttons in a toolbar by using flexible space bar button items.'
 keywords: 'iPhone Development, toolbar, buttons, center'
