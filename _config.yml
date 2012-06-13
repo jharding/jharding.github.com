@@ -1,5 +1,6 @@
 exclude: ['grunt.js', 'node_modules']
 auto: true
+pygments: true
 
 title: 'Jake Harding'
 author:
