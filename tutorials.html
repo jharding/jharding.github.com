@@ -1,14 +1,14 @@
 ---
 layout: default
-type: blog
-title: 'Blog'
-description: 'Jake Harding has a site and a blog.'
-keywords: 'Jake Harding, Blog, Personal Site, Software, JavaScript, Node.js, Web Development'
+type: tutorials
+title: 'Tutorials'
+description: 'Software development related tutorials by Jake Harding.'
+keywords: 'tutorials, software development, web development'
 ---
 
 <ul class='most-recent-posts unstyled'>
   {% for post in site.posts %}
-    {% if post.category != 'tutorial' %}
+    {% if post.category == 'tutorial' %}
       <li>
         {% assign post_title = post.title %}
         {% assign post_date = post.date %}

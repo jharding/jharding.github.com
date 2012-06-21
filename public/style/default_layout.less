@@ -39,10 +39,10 @@
         &:hover, &:focus {
           left: -10px;
         }
-        &.home-link {
-          background: @homeColor;
+        &.blog-link {
+          background: @blogColor;
           &.visiting {
-            border-left: 5px solid darken(@homeColor, 20%); 
+            border-left: 5px solid darken(@blogColor, 20%); 
           }
         }
         &.about-link {
@@ -55,6 +55,12 @@
           background: @projectsColor;
           &.visiting {
             border-left: 5px solid darken(@projectsColor, 20%); 
+          }
+        }
+        &.tutorials-link {
+          background: @tutorialsColor;
+          &.visiting {
+            border-left: 5px solid darken(@tutorialsColor, 20%); 
           }
         }
         &.archive-link {
@@ -87,17 +93,17 @@
 
 // styling for page specific color
 body {
-  &.home {
+  &.blog {
     .top-bar {
-      background: @homeColor;
+      background: @blogColor;
     }
     header h1 a {
-      color: @homeColor;
+      color: @blogColor;
     }
     a {
-      color: @homeColor;
+      color: @blogColor;
       &:hover {
-        color: darken(@homeColor, 20%);
+        color: darken(@blogColor, 20%);
       }
     }
   }
@@ -126,6 +132,20 @@ body {
       color: @projectsColor;
       &:hover {
         color: darken(@projectsColor, 20%);
+      }
+    }
+  }
+  &.tutorials {
+    .top-bar {
+      background: @tutorialsColor;
+    }
+    header h1 a {
+      color: @tutorialsColor;
+    }
+    a {
+      color: @tutorialsColor;
+      &:hover {
+        color: darken(@tutorialsColor, 20%);
       }
     }
   }
