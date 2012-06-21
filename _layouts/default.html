@@ -19,11 +19,21 @@
     <link rel='alternate' type='application/rss_xml' 
           title='RSS' href='/atom.xml'>
     
-    <link rel='stylesheet' href='/public/style/jharding.css'>
+    {% if site.production %}
+      <link rel='stylesheet' href='/public/css/jharding.min.css'>
+    {% else %}
+      <link rel='stylesheet' href='/public/css/jharding.css'>
+    {% endif %}
 
-    <!--[if lte IE 8]>
-      <script src="/public/vendor/html5shiv/html5shiv.js"></script>
-    <![endif]-->
+    {% if site.production %}
+      <!--[if lte IE 8]>
+        <script src="/public/js/html5shiv.min.js"></script>
+      <![endif]-->
+    {% else %}
+      <!--[if lte IE 8]>
+        <script src="/public/js/html5shiv.js"></script>
+      <![endif]-->
+    {% endif %}
   </head>
   <body class='{{ page.type }}'>
     <div class='top-bar'></div>
