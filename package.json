@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "author": "Jake Harding <jacob.s.harding@gmail.com> (http://thejakeharding.com)",
+  "name": "thejakeharding.com",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jharding/pharos.git"
+  },
+  "dependencies": {
+    "grunt-less": "*"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
