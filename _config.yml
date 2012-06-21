@@ -2,6 +2,8 @@ exclude: ['grunt.js', 'package.json', 'node_modules']
 auto: true
 pygments: true
 
+production: true
+
 title: 'Jake Harding'
 author:
   name: 'Jake Harding'
