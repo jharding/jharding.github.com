@@ -4495,10 +4495,10 @@ a.badge:hover {
 .container-main .sidebar .site-links a:focus {
   left: -10px;
 }
-.container-main .sidebar .site-links a.home-link {
+.container-main .sidebar .site-links a.blog-link {
   background: #295f99;
 }
-.container-main .sidebar .site-links a.home-link.visiting {
+.container-main .sidebar .site-links a.blog-link.visiting {
   border-left: 5px solid #132d49;
 }
 .container-main .sidebar .site-links a.about-link {
@@ -4508,16 +4508,22 @@ a.badge:hover {
   border-left: 5px solid #994c00;
 }
 .container-main .sidebar .site-links a.projects-link {
-  background: #ff2a00;
+  background: #ff0000;
 }
 .container-main .sidebar .site-links a.projects-link.visiting {
-  border-left: 5px solid #991900;
+  border-left: 5px solid #990000;
+}
+.container-main .sidebar .site-links a.tutorials-link {
+  background: #7f007f;
+}
+.container-main .sidebar .site-links a.tutorials-link.visiting {
+  border-left: 5px solid #190019;
 }
 .container-main .sidebar .site-links a.archive-link {
-  background: #117822;
+  background: #00a833;
 }
 .container-main .sidebar .site-links a.archive-link.visiting {
-  border-left: 5px solid #041f09;
+  border-left: 5px solid #004214;
 }
 .container-main .sidebar .site-links a.contact-link {
   background: #ffaf1f;
@@ -4534,16 +4540,16 @@ a.badge:hover {
   background: #000000;
   z-index: 1000;
 }
-body.home .top-bar {
+body.blog .top-bar {
   background: #295f99;
 }
-body.home header h1 a {
+body.blog header h1 a {
   color: #295f99;
 }
-body.home a {
+body.blog a {
   color: #295f99;
 }
-body.home a:hover {
+body.blog a:hover {
   color: #132d49;
 }
 body.about .top-bar {
@@ -4559,28 +4565,40 @@ body.about a:hover {
   color: #994c00;
 }
 body.projects .top-bar {
-  background: #ff2a00;
+  background: #ff0000;
 }
 body.projects header h1 a {
-  color: #ff2a00;
+  color: #ff0000;
 }
 body.projects a {
-  color: #ff2a00;
+  color: #ff0000;
 }
 body.projects a:hover {
-  color: #991900;
+  color: #990000;
+}
+body.tutorials .top-bar {
+  background: #7f007f;
+}
+body.tutorials header h1 a {
+  color: #7f007f;
+}
+body.tutorials a {
+  color: #7f007f;
+}
+body.tutorials a:hover {
+  color: #190019;
 }
 body.archive .top-bar {
-  background: #117822;
+  background: #00a833;
 }
 body.archive header h1 a {
-  color: #117822;
+  color: #00a833;
 }
 body.archive a {
-  color: #117822;
+  color: #00a833;
 }
 body.archive a:hover {
-  color: #041f09;
+  color: #004214;
 }
 body.contact .top-bar {
   background: #ffaf1f;
@@ -4595,28 +4613,28 @@ body.contact a:hover {
   color: #b87600;
 }
 body.post .top-bar {
-  background: #663100;
+  background: #1d7253;
 }
 body.post header h1 a {
-  color: #663100;
+  color: #1d7253;
 }
 body.post a {
-  color: #663100;
+  color: #1d7253;
 }
 body.post a:hover {
-  color: #000000;
+  color: #082118;
 }
 body.four-oh-four .top-bar {
-  background: #6c055f;
+  background: #333333;
 }
 body.four-oh-four header h1 a {
-  color: #6c055f;
+  color: #333333;
 }
 body.four-oh-four a {
-  color: #6c055f;
+  color: #333333;
 }
 body.four-oh-four a:hover {
-  color: #0b0009;
+  color: #000000;
 }
 html {
   overflow-y: scroll;
