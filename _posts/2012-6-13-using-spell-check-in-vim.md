@@ -8,7 +8,7 @@ keywords: 'Vim, spell, spell check, dropbox, spellfile'
 
 ### Introduction
 
-Vim has been my editor of choice for almost 4 years and yet I'm still constantly learning about new features. A feature I've recently stumbled across is spell check and I recommend learning how to use it. Using spell check within Vim is a great way to ensure your comments are high quality and it's a killer feature if you do a lot of your writing in Vim like I do. The goal if this post is to provide a simple guide for getting started with spell check in Vim.
+Vim has been my editor of choice for almost 4 years and yet I'm still constantly learning about new features. A feature I've recently stumbled across is spell check and I recommend learning how to use it. Using spell check within Vim is a great way to ensure your comments are high quality and it's a killer feature if you do a lot of your writing in Vim like I do. The goal of this post is to provide a simple guide for getting started with spell check in Vim.
 
 ### Configuring Spell Check
 
